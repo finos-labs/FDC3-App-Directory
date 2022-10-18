@@ -1,6 +1,8 @@
 ---
 title: Other nonsense App
-permalink: apps/c/
+permalink: apps/c/index.json
+redirect_from:
+  - /bob/
 data: {
   "appId": "c",
   "name": "c app",

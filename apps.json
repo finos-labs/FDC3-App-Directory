@@ -2,7 +2,7 @@
 permalink: apps/
 ---
 [
-{% for app in site.data %}
-{{ app | jsonify }} {% if forloop.last == false %},{% endif %}
+{% for app in site.apps %}
+{{ app.data | jsonify }} {% if forloop.last == false %},{% endif %}
 {% endfor %}  
 ]
