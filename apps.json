@@ -1,0 +1,8 @@
+---
+permalink: apps/
+---
+[
+{% for app in site.data %}
+{{ app | jsonify }} {% if forloop.last == false %},{% endif %}
+{% endfor %}  
+]

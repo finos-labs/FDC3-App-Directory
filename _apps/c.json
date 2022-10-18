@@ -1,0 +1,12 @@
+---
+title: Other nonsense App
+permalink: apps/c/
+data: {
+  "appId": "c",
+  "name": "c app",
+  "title": "C Application",
+  "description": "Totally nonsense made up rubbish",
+  "categories": [
+    ]
+}
+---
