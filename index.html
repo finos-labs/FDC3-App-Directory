@@ -1,17 +1,51 @@
 ---
 title: FINOS FDC3 App Directory
 description: "List of apps"
+layout: default
 ---
-<h1>Hello</h1>
-
-<section class="featured-articles">
-    
-  <div class="row listrecent">
-
-{% for app in site.apps %}
-  <h2>{{ app.data.name  }} </h2>
-  <p> {{ app.data.description }} </p>
-{% endfor %}
+  <main>
   
-  </div>
-</section>
+  {% for app in site.apps %}
+    <article>
+    
+      <header>
+        <h2>{{ app.data.name }} </h2>
+        <p>{{ app.data.description }}</p>
+        <div class="icons">
+        {% for icon in app.data.icons %}
+          <img class="icon" src=" {{ icon.src }} " title="{{ icon.label }}"/>
+        {% endfor %}
+        </div>
+      </header>
+      
+      <section>
+        <h3>Publisher Details</h3>
+        <p class="publisher">Publisher: {{ app.data.publisher }} </p>
+        <p class="version">Version: {{ app.data.version }} </p>
+        <p class="support">{{ app.supportEmail }} </p>
+        <p class="contact">{{ app.contactEmail }} </p>
+      </section>
+      
+      <section>
+        <h3>Screenshots</h3>
+        {% for ss in app.data.screenshots %} 
+          <img src="{{ ss.src }} " title="{{ ss.label }}" />
+        {% endfor %}
+      </section>
+    
+      <footer>
+         <p>
+            <a href="apps/{{ app.id }}">View Appd Record</a>
+            <a href="{{ app.moreInfo }}">More Info</a>
+         <p>
+            
+         <div class="categories">
+          {% for c in app.data.categories %}
+            <span class="category">{{ c }} </span>
+          {% endfor %}
+         </div>
+      </footer>
+    </article>
+ {% endfor %}
+ 
+</main>

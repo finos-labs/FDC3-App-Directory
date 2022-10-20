@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charSet="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>{{ site.title }} </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="{{ site.description }}"/>
+    <meta property="og:title" content="{{ site.title }} "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://fdc3.finos.org/"/>
+    <meta property="og:description" content="{{ site.description }}"/>
+    <meta property="og:image" content="{{ site.image }} "/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image" content="{{ site.image }}"/>
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico"/>
+    <script>
+      // google analytics  
+    </script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
+</head>
+<body>
+    <div class="fixedHeaderContainer">
+        <div class="headerWrapper wrapper">
+            <header>
+                <a href="https://fdc3.finos.org">
+                    <img class="logo" src="{{ site.baseurl }}/assets/images/fdc3-icon-2019.svg" alt="FDC3"/>
+                    <h2 class="headerTitleWithLogo">FDC3</h2>
+                </a>
+                <div class="navigationWrapper navigationSlider">
+                    <nav class="slidingNav">
+                        <ul class="nav-site nav-site-internal">
+                            <li class="">
+                                <a href="https://fdc3.finos.org/docs/fdc3-standard" target="_self">The Standard</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="navPusher">
+        <div>
+            <div class="homeContainer">
+                <div class="homeSplashFade">
+                    <div class="wrapper homeWrapper">
+                        <div class="inner">
+                            <img src="{{ site.baseurl }}/assets/images/fdc3-logo-2019.png"/>
+                            <h2 class="projectTitle">
+                                <small>{{ site.title }} </small>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="container paddingBottom paddingTop">
+                  <div class="userShowcase productShowcaseSection paddingTop paddingBottom">
+                    {{ content }}
+                  </div>
+                </div>
+            </div>
+        </div>
+        <footer class="nav-footer" id="footer">
+            <section class="finos finosBanner">
+                <a href="https://www.finos.org">
+                    <img id="finosicon" src="https://fdc3.finos.org/img/finos_wordmark.svg" height="75px" alt="FINOS" title="FINOS"/>
+                    <h2 id="proud">Designed and Supported by FINOS</h2>
+                </a>
+            </section>
+            <section class="copyright">Copyright © 2022 FINOS</section>
+        </footer>
+    </div>
+</body>
+</html>
+
