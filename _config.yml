@@ -7,12 +7,10 @@ favicon: favicon.ico
 page_lang: en-GB
 image: tbc  # twitter image
  
-baseurl: /v2
-
 collections:
   apps:
     output: true
-    permalink: /apps/:name/index.json
+    permalink: /v2/apps/:name/index.json
     
 defaults:
   - scope:
