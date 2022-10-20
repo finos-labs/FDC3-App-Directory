@@ -21,7 +21,7 @@ data: {
   ],
   "screenshots": [
     {
-      "src": "https://www.fillmurray.com/800/600",
+      "src": "https://www.fillmurray.com/600/800",
       "label": "The first screenshot of my example app",
       "type": "image/png",
       "size": "800x600"
@@ -31,7 +31,14 @@ data: {
       "label": "The second screenshot of my example app",
       "type": "image/png",
       "size": "800x600"
+    },
+    {
+      "src": "https://www.fillmurray.com/300/300",
+      "label": "The third screenshot of my example app",
+      "type": "image/png",
+      "size": "800x600"
     }
+    
   ],
   "contactEmail": "fdc3@finos.org",
   "supportEmail": "fdc3-maintainers@finos.org",

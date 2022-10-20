@@ -1,0 +1,48 @@
+main {  
+	padding: 0 20px;
+	max-width: 62.5rem;
+	margin: auto;
+}
+
+.icon {
+	height: 3rem;
+}
+
+.screenshot {
+	width: 20rem;
+}
+
+.implementation-details {
+    align-items: flex-start;
+    flex-basis:100%
+}
+
+.screenshots {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Carousel Suff */
+
+.pic-ctn {
+	position: relative;
+  width: 20rem;
+  padding: 0 1rem 1rem 0;
+  overflow: hidden;
+}
+
+.screenshot {
+  position: absolute;
+	top: 0;
+  left: 0;	
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+#screenshot-1 {
+	position: relative;
+}
+
+.screenshot.visible {
+	opacity: 1;
+}
