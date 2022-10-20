@@ -1,48 +1,40 @@
-main {  
+main {
 	padding: 0 20px;
 	max-width: 62.5rem;
 	margin: auto;
 }
 
-.icon {
-	height: 3rem;
+.icons {
+	background-color: white;
 }
 
-.screenshot {
-	width: 20rem;
+.icon {
+	height: 4rem;
+	padding: .3rem;
+	display: block;
 }
 
 .implementation-details {
-    align-items: flex-start;
-    flex-basis:100%
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.implementation-details > .description {
+  flex-basis: unset;
+}
+
+.screenshot {
+	height: 15rem;
+	padding: 1rem;
 }
 
 .screenshots {
 	display: flex;
-	flex-direction: column;
-}
-
-/* Carousel Suff */
-
-.pic-ctn {
-	position: relative;
-  width: 20rem;
-  padding: 0 1rem 1rem 0;
-  overflow: hidden;
-}
-
-.screenshot {
-  position: absolute;
-	top: 0;
-  left: 0;	
-  opacity: 0;
-  transition: opacity 2s;
-}
-
-#screenshot-1 {
-	position: relative;
-}
-
-.screenshot.visible {
-	opacity: 1;
+	flex-grow: 1;
+	overflow-x: auto;
+	overflow-y: hidden;
+	max-height: 16rem;
+	max-width: 10000rem;
+	margin: 3rem;
 }

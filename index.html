@@ -18,23 +18,23 @@ layout: default
       </div>
     </header>
     <section class="implementation-details">
-      <div class=screenshots">
-        <div class="pic-ctn">
-          {% for ss in app.screenshots %} <img src="{{ss.src }} " title="{{ss.label }}" id="screenshot-{{ forloop.index }}"
-            class="screenshot {% if forloop.first %}visible{% endif %}" /> {% endfor %}
-        </div>
-      </div>
-      
       <div class="description">
         <div class="infoLinks">
           <a href="{{ app.supportEmail }}" class="button">Support</a> 
           <a href="{{ app.contactEmail }}" class="button">Contact </a>
           {% for d in app.details %} 
-            <a href="{{ u.url }}" class="button">Details</a>
+            <a href="{{ d.url }}" class="button">Details</a>
           {% endfor %}
+          <a href="{{ site.baseurl }}/v2/apps/{{ app.appId }}" class="button">AppD Record </a>
         </div>
         <div class="prose">{{ app.description }}</div>
       </div>  
+      <div class="screenshots">
+          {% for ss in app.screenshots %} 
+          <img src="{{ss.src }} " title="{{ss.label }}" id="screenshot-{{ forloop.index }}"
+            class="screenshot {% if forloop.first %}visible{% endif %}" />
+          {% endfor %}
+      </div>
     </section>
     <footer class="implementation-metadata">
       <small class="version">Version: {{ app.version }}</small> <a href="apps/{{ app.id }}">View Appd Record</a> <a href="{{ app.moreInfo }}">More
