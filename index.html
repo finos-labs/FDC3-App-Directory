@@ -35,13 +35,16 @@ layout: default
             class="screenshot {% if forloop.first %}visible{% endif %}" />
           {% endfor %}
       </div>
+      <div class="description">
+        <div class="badges">
+          {% for c in app.categories %} <a href="#" class="button badge">{{ c }} </a> {% endfor %}
+        </div>
+      </div>
+      
     </section>
     <footer class="implementation-metadata">
       <small class="version">Version: {{ app.version }}</small> <a href="apps/{{ app.id }}">View Appd Record</a> <a href="{{ app.moreInfo }}">More
         Info</a>
-      <div class="badges">
-        {% for c in app.categories %} <a href="#" class="category badge bg-secondary">{{ c }} </a> {% endfor %}
-      </div>
     </footer>
   </article>
   {% endfor %}
