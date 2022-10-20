@@ -20,3 +20,38 @@
 - FINOS are committed to showcasing the best of the FDC3 community.  What better way to do this than to have your app in the app directory?
 - FDC3 is all about interoperability.  It is important to see how the apps work together: sharing context data and user intents between themselves.   For this reason it is valuable to collect the apps together to allow users to see this in action.
 
+## How Does It Work?
+
+This repo uses [Jekyll](https://jekyllrb.com) to template a static-site https://directory.fdc3.finos.org.   It produces:
+
+  - An `index.html` page containing a list of all the applications.
+  - A `v2/apps` page (in JSON format) containing the contents of the app directory, as specified [here](https://fdc3.finos.org/schemas/2.0/app-directory)
+  - Individual `v2/apps/{appId}` pages (in JSON format) containing the invididual AppD records.
+
+### To Add Records to The FINOS App Directory
+ 
+1.  Create a PR with a new `.json` file in the `_apps` directory.  Follow the format there:
+
+```
+---
+data: { 
+  # AppD record JSON Manifest
+}
+---
+```
+
+2.  The maintainers of this repo will review and approve the PR.  GitHub will automatically update the GitHub pages site with details of your application.
+
+### To Create Your Own App Directory
+
+1.  Click the `fork` button at the top of the page and create a fork into your own GitHub repository.
+2.  Modify the contents of the `_apps` folder with the apps you want in your apps directory.
+3.  Set up GitHub pages for your forked repo, and point your Desktop Agent at the resulting URL.
+
+# License
+
+Copyright 2022 FINOS
+
+Distributed under the Apache License, Version 2.0.
+
+SPDX-License-Identifier: Apache-2.0
