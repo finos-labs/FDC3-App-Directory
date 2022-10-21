@@ -7,7 +7,7 @@ favicon: favicon.ico
 page_lang: en-GB
 image: tbc  # twitter image
  
-baseurl: /FDC3-App-Directory
+#baseurl: /FDC3-App-Directory
 github: https://github.com/robmoffat/FDC3-App-Directory
 
 collections:
