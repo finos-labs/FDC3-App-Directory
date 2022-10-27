@@ -1,8 +1,8 @@
 ---
 data: {
 	"$schema": "../app-directory-schema-2.0.yml",
-	"appId": "Ticker-Grid",
-	"name": "Ticker-Grid",
+	"appId": "tickergrid",
+	"name": "tickergrid",
 	"title": "Ticker Grid",
 	"description": "FDC3 enabled grid of the S&P 500",
 	"icons": [

@@ -1,7 +1,7 @@
 ---
 data: {
-	"appId": "Ticker-Demo",
-	"name": "Ticker-Demo",
+	"appId": "tickerdemo",
+	"name": "tickerdemo",
 	"title": "Ticker Info Demo",
 	"description": "Demo fdc3 company information using services from Polygon.io",
 	"icons": [
