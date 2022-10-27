@@ -13,9 +13,11 @@ layout: default
         </div>
         <div class="publisher">{{ app.publisher }}</div>
       </div>
+      {% if app.icons[0] %}
       <div class="type icons">
         {% for icon in app.icons %} <img class="icon" src="{{ icon.src }}" title="{{ icon.label }}" /> {% endfor %}
       </div>
+      {% endif %}
     </header>
     <section class="implementation-details">
       <div class="description">

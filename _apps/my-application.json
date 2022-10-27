@@ -14,24 +14,18 @@ data: {
   "lang": "en-US",
   "icons": [
     {
-      "src": "http://example.domain.com/assets/my-app-icon.png",
+      "src": "/assets/appd/icon.png",
       "size": "256x256",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "http://example.domain.com/assets/my-app-screenshot-1.png",
+      "src": "/assets/appd/spreadsheet.jpeg",
       "label": "The first screenshot of my example app",
       "type": "image/png",
       "size": "800x600"
     },
-    {
-      "src": "http://example.domain.com/assets/my-app-screenshot-2.png",
-      "label": "The second screenshot of my example app",
-      "type": "image/png",
-      "size": "800x600"
-    }
   ],
   "contactEmail": "fdc3@finos.org",
   "supportEmail": "fdc3-maintainers@finos.org",
