@@ -1,0 +1,33 @@
+---
+data: {
+	"appId": "Ticker-Demo",
+	"name": "Ticker-Demo",
+	"title": "Ticker Info Demo",
+	"description": "Demo fdc3 company information using services from Polygon.io",
+	"icons": [
+		{
+			"src": "https: //polygon.io/favicon.ico"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "https: //appd.kolbito.com/demos/ticker-demo/screen-1.png",
+			"label": "Screenshot 1"
+		}
+	],
+	"type": "web",
+	"details": {
+		"url": "https: //appd.kolbito.com/demos/ticker-demo/"
+	},
+	"interop": {
+		"listensFor": {
+			"ViewInstrument": {
+				"displayName": "View Instrument",
+				"contexts": [
+					"fdc3.instrument"
+				]
+			}
+		}
+	}
+}
+---

@@ -1,0 +1,32 @@
+---
+data: {
+	"appId": "TradingViewChart",
+	"name": "TradingViewChart",
+	"title": "TradingView Chart",
+	"description": "Demo fdc3 chart using widgets from TradingView",
+	"icons": [
+		{
+			"src": "https://appd.kolbito.com/demos/tradingview-chart/icon.png"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "https://appd.kolbito.com/demos/tradingview-chart/screen-1.png"
+		}
+	],
+	"type": "web",
+	"details": {
+		"url": "https://appd.kolbito.com/demos/tradingview-chart/"
+	},
+	"interop": {
+		"listensFor": {
+			"ViewChart": {
+				"displayName": "View Chart",
+				"contexts": [
+					"fdc3.instrument"
+				]
+			}
+		}
+	}
+}
+---

@@ -1,0 +1,32 @@
+---
+data: {
+	"appId": "News-Demo",
+	"name": "News-Demo",
+	"title": "News Feed Demo",
+	"description": "Demo FDC3 news feed using services from NewsAPI.org",
+	"icons": [
+		{
+			"src": "https: //newsapi.org/favicon-32x32.png"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "https: //appd.kolbito.com/demos/news-demo/screen-1.png"
+		}
+	],
+	"type": "web",
+	"details": {
+		"url": "https: //appd.kolbito.com/demos/news-demo/"
+	},
+	"interop": {
+		"listensFor": {
+			"ViewNews": {
+				"displayName" : "View News",
+				"contexts": [
+					"fdc3.instrument"
+				]
+			}
+		}
+	}
+}
+---
