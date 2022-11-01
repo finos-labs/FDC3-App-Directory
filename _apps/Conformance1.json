@@ -1,7 +1,7 @@
 ---
 data: {
-  "appId": "Conformance1_2",
-  "name": "Conformance1_2",
+  "appId": "Conformance1",
+  "name": "Conformance1",
   "title": "FDC3 1.2 Conformance Framework",
   "description": "Testing Conformance",
   "type": "web",
