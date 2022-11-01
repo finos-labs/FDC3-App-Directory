@@ -1,6 +1,6 @@
 ---
 include: false
-data:{
+data: {
   "appId": "IntentAppCId",
   "name": "IntentAppC",
   "title": "Intent App C",
