@@ -1,0 +1,66 @@
+---
+include: false
+data: {
+  "appId": "MockAppId",
+  "name": "MockApp",
+  "description": "Testing spec conformance",
+  "details": {
+    "url": "https://finos.github.io/FDC3-conformance-framework/mock/general/"
+  },
+  "hostManifests": {
+    "sail": {
+      "inject-api": "1.2"
+    },
+    "finsemble": {
+      "window": {
+        "url": "https://finos.github.io/FDC3-conformance-framework/mock/general/",
+        "affinity": "workspaceComponents",
+        "options": {
+          "resizable": true,
+          "autoShow": false,
+          "alwaysOnTop": false,
+          "addToWorkspace": true
+        },
+        "top": "center",
+        "left": "center",
+        "width": 800,
+        "height": 600
+      },
+      "component": {
+        "displayName": "FDC3 Conformance Framework Mock App"
+      },
+      "foreign": {
+        "services": {
+          "windowService": {
+            "allowSnapping": true,
+            "allowGrouping": true,
+            "allowTabbing": true,
+            "allowAutoArrange": true,
+            "allowMinimize": true
+          }
+        },
+        "components": {
+          "App Launcher": {
+            "launchableByUser": true
+          },
+          "Window Manager": {
+            "alwaysOnTopIcon": false,
+            "FSBLHeader": {
+              "hideMaximize": false
+            },
+            "persistWindowState": true,
+            "title": "FDC3 Conformance Framework Mock App"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0.0",
+  "publisher": "Scott Logic",
+  "icons": [
+    {
+      "src": "https://www.scottlogic.com/sites/default/files/scott-logic-favicon.jpg"
+    }
+  ]
+}
+---

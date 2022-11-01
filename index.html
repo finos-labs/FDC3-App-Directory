@@ -4,7 +4,9 @@ description: "List of apps"
 layout: default
 ---
 <main>
-  {% for record in site.apps %} {% assign app = record.data %}
+  {% for record in site.apps %} 
+  {% if (record.include) %}
+  {% assign app = record.data %}
   <article class="implementation">
     <header class="implementation-metadata">
       <div class="title-and-publisher">
@@ -49,5 +51,6 @@ layout: default
         Info</a>
     </footer>
   </article>
+  {% endif %}
   {% endfor %}
 </main>
