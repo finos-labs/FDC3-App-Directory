@@ -20,11 +20,13 @@ data: {
 	},
 	"interop": {
 		"listensFor": {
-			"ViewChart": {
-				"displayName": "View Chart",
-				"contexts": [
-					"fdc3.instrument"
-				]
+			"intents":{
+				"ViewChart": {
+					"displayName": "View Chart",
+					"contexts": [
+						"fdc3.instrument"
+					]
+				}
 			}
 		}
 	}
