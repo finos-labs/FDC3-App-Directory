@@ -20,7 +20,7 @@ data: {
 	},
 	"interop": {
 		"listensFor": {
-			"intent": {
+			"intents": {
 				"ViewChart": {
 					"displayName": "View Chart",
 					"contexts": [
