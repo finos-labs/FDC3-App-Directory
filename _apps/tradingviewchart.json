@@ -19,8 +19,8 @@ data: {
 		"url": "https://appd.kolbito.com/demos/tradingview-chart/"
 	},
 	"interop": {
-		"listensFor": {
-			"intents": {
+		"intents": {
+			"listensFor": {
 				"ViewChart": {
 					"displayName": "View Chart",
 					"contexts": [
