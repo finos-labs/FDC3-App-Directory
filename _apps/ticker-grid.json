@@ -19,6 +19,11 @@ data: {
 	"type": "web",
 	"details": {
 		"url": "https://appd.kolbito.com/demos/ticker-grid/"
-	}
+	},
+  "hostManifests": {
+    "sail": {
+      "inject-api": "1.2",
+    },
+  }
 }
 ---
