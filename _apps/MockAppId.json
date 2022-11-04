@@ -9,7 +9,8 @@ data: {
   },
   "hostManifests": {
     "sail": {
-      "inject-api": "1.2"
+      "inject-api": "1.2",
+      "searchable": false
     },
     "finsemble": {
       "window": {
