@@ -19,12 +19,14 @@ data: {
 		"url": "https://appd.kolbito.com/demos/tradingview-chart/"
 	},
 	"interop": {
-		"listensFor": {
-			"ViewChart": {
-				"displayName": "View Chart",
-				"contexts": [
-					"fdc3.instrument"
-				]
+		"intents": {
+			"listensFor": {
+				"ViewChart": {
+					"displayName": "View Chart",
+					"contexts": [
+						"fdc3.instrument"
+					]
+				}
 			}
 		}
 	}
