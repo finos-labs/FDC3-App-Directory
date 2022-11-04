@@ -10,7 +10,7 @@ data: {
   },
   "screenshots": [
     {
-      "src": "/assets/app/Conformance1.png"
+      "src": "https://directory.fdc3.finos.org/assets/app/Conformance1.png"
     }
   ],
   "hostManifests": {
