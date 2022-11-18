@@ -5,7 +5,7 @@ data: {
   "name": "MockApp",
   "description": "Testing spec conformance",
   "details": {
-    "url": "https://finos.github.io/FDC3-conformance-framework/mock/1.2/general/"
+    "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/general/"
   },
   "hostManifests": {
     "sail": {
@@ -14,7 +14,7 @@ data: {
     },
     "finsemble": {
       "window": {
-        "url": "https://finos.github.io/FDC3-conformance-framework/mock/1.2/general/",
+        "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/general/",
         "affinity": "workspaceComponents",
         "options": {
           "resizable": true,
