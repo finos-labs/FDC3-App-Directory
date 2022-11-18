@@ -7,7 +7,7 @@ data: {
   "description": "Part of the FDC3 1.2 Conformance Tests",
   "type": "web",
   "details": {
-    "url": "https://finos.github.io/FDC3-conformance-framework/mock/intent-c/"
+    "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/intent-c/"
   },
   "hostManifests": {
     "sail": {
@@ -15,7 +15,7 @@ data: {
     },
     "finsemble": {
       "window": {
-        "url": "https://finos.github.io/FDC3-conformance-framework/mock/intent-c/",
+        "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/intent-c/",
         "affinity": "workspaceComponents",
         "options": {
           "resizable": true,
