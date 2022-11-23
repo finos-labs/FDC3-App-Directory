@@ -1,16 +1,16 @@
 ---
 data: {
-  "appId": "Conformance1_2",
-  "name": "Conformance1_2",
+  "appId": "Conformance1",
+  "name": "Conformance1",
   "title": "FDC3 1.2 Conformance Framework",
   "description": "Testing Conformance",
   "type": "web",
   "details": {
-    "url": "https://finos.github.io/FDC3-conformance-framework/app/"
+    "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/app/"
   },
   "screenshots": [
     {
-      "src": "/assets/app/Conformance1.png"
+      "src": "https://directory.fdc3.finos.org/assets/app/Conformance1.png"
     }
   ],
   "hostManifests": {
@@ -19,7 +19,7 @@ data: {
     },
     "finsemble": {
       "window": {
-        "url": "https://finos.github.io/FDC3-conformance-framework/app/",
+        "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/app/",
         "affinity": "workspaceComponents",
         "options": {
           "resizable": true,

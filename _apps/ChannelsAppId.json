@@ -6,16 +6,17 @@ data:   {
     "description": "Part of the FDC3 1.2 Conformance Tests",
     "type": "web",
     "details": {
-      "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/channels/"
+      "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/channels/"
     },
     "hostManifests": {
       "sail": {
         "inject-api": "1.2",
-        "searchable": false
+        "searchable": false,
+        "forceNewWindow": true
       },
       "finsemble": {
         "window": {
-          "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/channels/",
+          "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/channels/",
           "affinity": "workspaceComponents",
           "options": {
             "resizable": true,
@@ -65,4 +66,5 @@ data:   {
       }
     ]
   }
+include: false
 ---

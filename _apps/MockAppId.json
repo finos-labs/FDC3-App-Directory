@@ -5,15 +5,17 @@ data: {
   "name": "MockApp",
   "description": "Testing spec conformance",
   "details": {
-    "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/general/"
+    "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/general/"
   },
   "hostManifests": {
     "sail": {
-      "inject-api": "1.2"
+      "inject-api": "1.2",
+      "searchable": false,
+      "forceNewWindow": true
     },
     "finsemble": {
       "window": {
-        "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/general/",
+        "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/general/",
         "affinity": "workspaceComponents",
         "options": {
           "resizable": true,

@@ -7,15 +7,17 @@ data: {
   "description": "Part of the FDC3 1.2 Conformance Tests",
   "type": "web",
   "details": {
-    "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/intent-b/"
+    "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/intent-b/"
   },
   "hostManifests": {
     "sail": {
-      "inject-api": "1.2"
+      "inject-api": "1.2",
+      "searchable": false,
+      "forceNewWindow": true
     },
     "finsemble": {
       "window": {
-        "url": "https://finos.github.io/FDC3-conformance-framework/mock/v1.2/intent-b/",
+        "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/intent-b/",
         "affinity": "workspaceComponents",
         "options": {
           "resizable": true,
