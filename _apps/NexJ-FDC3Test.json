@@ -1,5 +1,4 @@
 ---
-include: false
 data: {
     "appId": "NexJ-FDC3Test",
     "name": "NexJ FDC3 Test",
