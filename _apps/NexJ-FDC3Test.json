@@ -1,6 +1,6 @@
 ---
 include: false
-data:  {
+data: {
     "appId": "NexJ-FDC3Test",
     "name": "NexJ FDC3 Test",
     "title": "NexJ FDC3 Test",
@@ -10,8 +10,7 @@ data:  {
   },
   "hostManifests": {
     "sail": {
-        "inject-api": "1.2",
-        "forceNewWindow": true
+        "inject-api": "1.2"
     }
 }
 ---
