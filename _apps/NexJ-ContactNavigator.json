@@ -1,4 +1,5 @@
 ---
+include: false
 data: {
     "appId": "NexJ-ContactNavigator",
     "name": "NexJ Contact Navigator",
