@@ -5,21 +5,23 @@ data: {
     "title": "NexJ FDC3 Test",
     "description": "FDC3 Test Portlet",
     "type": "web",
-    "details": {"url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"}
-  },
-  "icons": [
-    {
-        "src": "https://www.nexj.com/wp-content/uploads/2018/10/nexj.png"
-    }
-  ],
-  "screenshots" : [
-   {
-        "src": "https://directory.fdc3.finos.org/assets/app/nexj.png"
-   }
-  ],
-  "hostManifests": {
-    "sail": {
-        "inject-api": "1.2"
+    "details": {
+        "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"
+    },
+    "icons": [
+        {
+            "src": "https://www.nexj.com/wp-content/uploads/2018/10/nexj.png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://directory.fdc3.finos.org/assets/app/nexj.png"
+        }
+    ],
+    "hostManifests": {
+        "sail": {
+            "inject-api": "1.2"
+        }
     }
 }
 ---
