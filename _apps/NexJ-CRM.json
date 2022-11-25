@@ -1,0 +1,34 @@
+---
+data: {
+    "appId": "NexJ-CRM",
+    "name": "NexJ Customer Relationship Management",
+    "title": "NexJ Customer Relationship Management",
+    "description": "Intelligent customer management solution",
+    "type": "web",
+    "details": {
+        "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/portal?$m=nexj/ui/bus/fdc3&$m=nexj/ui/mda/mvc/fdc3"
+    },
+    "icons": [
+        {
+            "src": "https://www.nexj.com/wp-content/uploads/2018/10/nexj.png"
+        }
+    ],
+    "screenshots" : [
+        {
+            "src": "https://directory.fdc3.finos.org/assets/app/nexj.png"
+        }
+    ],
+    "interop": {
+        "intents": {
+            "listensFor": {
+                "ViewProfile": {
+                    "displayName": "View Contact",
+                    "contexts": [
+                        "fdc3.contact"
+                    ]
+                }
+            }
+        }
+    }
+}
+---

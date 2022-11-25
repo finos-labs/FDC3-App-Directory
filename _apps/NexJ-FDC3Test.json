@@ -1,0 +1,10 @@
+---
+data:  {
+    "appId": "NexJ-FDC3Test",
+    "name": "NexJ FDC3 Test",
+    "title": "NexJ FDC3 Test",
+    "description": "FDC3 Test Portlet",
+    "type": "web",
+    "details": {"url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"}
+  }
+---

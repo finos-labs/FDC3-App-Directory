@@ -1,0 +1,13 @@
+---
+include: false,
+data: {
+    "appId": "NexJ-ContactNavigator",
+    "name": "NexJ Contact Navigator",
+    "title": "NexJ Contact Navigator",
+    "description": "Filter lists of contacts, companies, households and users and drill in or trigger actions on them",
+    "type": "web",
+    "details": {
+        "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/portlet/mda:EntityNavigator?$m=nexj/ui/bus/fdc3"
+    }
+}
+---
