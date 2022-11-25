@@ -24,8 +24,8 @@ layout: default
     <section class="implementation-details">
       <div class="description">
         <div class="infoLinks">
-          <a href="{{ app.supportEmail }}" class="button">Support</a> 
-          <a href="{{ app.contactEmail }}" class="button">Contact </a>
+          <a href="mailto:{{ app.supportEmail }}" class="button">Support</a> 
+          <a href="mailto:{{ app.contactEmail }}" class="button">Contact </a>
           {% for d in app.details %} 
             <a href="{{ d.url }}" class="button">Details</a>
           {% endfor %}
