@@ -5,6 +5,9 @@ data: {
     "title": "NexJ FDC3 Test",
     "description": "FDC3 Test Portlet",
     "type": "web",
+    "categories": [
+		"demo",
+	  ],
     "details": {
         "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"
     },

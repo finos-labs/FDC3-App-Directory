@@ -4,6 +4,11 @@ data: {
   "name": "newsdemo",
   "title": "News Feed Demo",
   "description": "Demo FDC3 news feed using services from NewsAPI.org",
+  "categories": [
+		"demo",
+		"training",
+    "news"
+	  ],
   "icons": [
     {
       "src": "https://newsapi.org/favicon-32x32.png"

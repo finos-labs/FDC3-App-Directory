@@ -5,6 +5,10 @@ data: {
     "title": "NexJ Customer Relationship Management",
     "description": "Intelligent customer management solution",
     "type": "web",
+    "categories": [
+		"communication",
+		"demo"
+	  ],
     "details": {
         "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/portal?$m=nexj/ui/bus/fdc3&$m=nexj/ui/mda/mvc/fdc3"
     },

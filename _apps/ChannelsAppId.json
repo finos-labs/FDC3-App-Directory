@@ -5,6 +5,9 @@ data:   {
     "title": "Channels App",
     "description": "Part of the FDC3 1.2 Conformance Tests",
     "type": "web",
+    "categories": [
+      "developer tools",
+    ],
     "details": {
       "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/channels/"
     },

@@ -5,6 +5,10 @@ data: {
 	"name": "tickergrid",
 	"title": "Ticker Grid",
 	"description": "FDC3 enabled grid of the S&P 500",
+	"categories": [
+		"demo",
+		"training"
+	  ],
 	"icons": [
 		{
 			"src": "https://appd.kolbito.com/images/fdc3-logo.png"

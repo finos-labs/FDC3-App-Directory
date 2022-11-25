@@ -4,6 +4,10 @@ data: {
 	"name": "tickerdemo",
 	"title": "Ticker Info Demo",
 	"description": "Demo fdc3 company information using services from Polygon.io",
+	"categories": [
+		"demo",
+		"training"
+	  ],
 	"icons": [
 		{
 			"src": "https://polygon.io/favicon.ico"

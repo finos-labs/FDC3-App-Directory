@@ -9,6 +9,9 @@ data: {
   "details": {
     "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/intent-b/"
   },
+  "categories": [
+    "developer tools",
+  ],
   "hostManifests": {
     "sail": {
       "inject-api": "1.2",

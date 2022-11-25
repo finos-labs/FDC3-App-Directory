@@ -4,6 +4,10 @@ data: {
 	"name": "tradingviewchart",
 	"title": "TradingView Chart",
 	"description": "Demo fdc3 chart using widgets from TradingView",
+	"categories": [
+		"demo",
+		"training"
+	  ],
 	"icons": [
 		{
 			"src": "https://appd.kolbito.com/demos/tradingview-chart/icon.png"
