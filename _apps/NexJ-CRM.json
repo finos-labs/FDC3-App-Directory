@@ -29,6 +29,11 @@ data: {
                 }
             }
         }
+    },
+    "hostManifests": {
+        "sail": {
+            "inject-api": "1.2",
+        }
     }
 }
 ---

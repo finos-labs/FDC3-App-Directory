@@ -1,5 +1,5 @@
 ---
-include: false,
+include: false
 data: {
     "appId": "NexJ-ContactNavigator",
     "name": "NexJ Contact Navigator",
@@ -8,6 +8,11 @@ data: {
     "type": "web",
     "details": {
         "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/portlet/mda:EntityNavigator?$m=nexj/ui/bus/fdc3"
+    }
+    "hostManifests": {
+        "sail": {
+            "inject-api": "1.2",
+        }
     }
 }
 ---

@@ -1,4 +1,5 @@
 ---
+include: false
 data:  {
     "appId": "NexJ-FDC3Test",
     "name": "NexJ FDC3 Test",
@@ -6,5 +7,11 @@ data:  {
     "description": "FDC3 Test Portlet",
     "type": "web",
     "details": {"url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"}
-  }
+  },
+  "hostManifests": {
+    "sail": {
+        "inject-api": "1.2",
+        "forceNewWindow": true
+    }
+}
 ---
