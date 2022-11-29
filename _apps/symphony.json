@@ -27,7 +27,8 @@ data: {
       },
       "StartChat": {
         "contexts": [
-          "fdc3.chat.initSettings"
+          "fdc3.chat.initSettings",
+          "fdc3.contact"
         ],
         "displayName": "Start Chat"
       },
