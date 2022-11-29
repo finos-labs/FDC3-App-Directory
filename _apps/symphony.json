@@ -18,25 +18,27 @@ data: {
     }
   ],
   "interop": {
-    "listensFor": {
-      "SendChatMessage": {
-        "contexts": [
-          "fdc3.chat.message"
-        ],
-        "displayName": "Send Chat Message"
-      },
-      "StartChat": {
-        "contexts": [
-          "fdc3.chat.initSettings",
-          "fdc3.contact"
-        ],
-        "displayName": "Start Chat"
-      },
-      "ViewMessages": {
-        "contexts": [
-          "fdc3.searchCriteria"
-        ],
-        "displayName": "View Messages"
+    "intents": {
+      "listensFor": {
+        "SendChatMessage": {
+          "contexts": [
+            "fdc3.chat.message"
+          ],
+          "displayName": "Send Chat Message"
+        },
+        "StartChat": {
+          "contexts": [
+            "fdc3.chat.initSettings",
+            "fdc3.contact"
+          ],
+          "displayName": "Start Chat"
+        },
+        "ViewMessages": {
+          "contexts": [
+            "fdc3.searchCriteria"
+          ],
+          "displayName": "View Messages"
+        }
       }
     },
     "raises": {
