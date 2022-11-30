@@ -25,7 +25,7 @@ data: {
     "interop": {},
     "hostManifests": {
         "sail": {
-            "inject-api": "1.2",
+            "injectApi": "1.2",
             "forceNewWindow": true
         }
     }
