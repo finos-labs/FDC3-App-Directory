@@ -20,7 +20,7 @@ data: {
     ],
     "screenshots": [
       {
-        "src": "http://fdc3.chartiq.com/fdc3/assets/screenshot1.png",
+        "src": "http://fdc3.chartiq.com/fdc3/assets/screenshot1.gif",
         "label": "The first screenshot of my ChartIQ",
         "type": "image/gif",
         "size": "856x638"
