@@ -1,0 +1,33 @@
+---
+data: {
+	"$schema": "../app-directory-schema-2.0.yml",
+	"appId": "ticker-grid",
+	"name": "ticker-grid",
+	"title": "Ticker Grid",
+	"description": "FDC3 enabled grid of the S&P 500",
+	"categories": [
+		"demo",
+		"training"
+	  ],
+	"icons": [
+		{
+			"src": "https://appd.kolbito.com/images/fdc3-logo.png"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "https://appd.kolbito.com/demos/ticker-grid/screen-1.png",
+			"label": "Demo Screenshot"
+		}
+	],
+	"type": "web",
+	"details": {
+		"url": "https://appd.kolbito.com/demos/ticker-grid/"
+	},
+  "hostManifests": {
+    "sail": {
+      "injectApi": "1.2",
+    },
+  }
+}
+---
