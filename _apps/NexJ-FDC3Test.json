@@ -1,7 +1,7 @@
 ---
 data: {
-    "appId": "NexJ-FDC3Test",
-    "name": "NexJ FDC3 Test",
+    "appId": "nexj-fdc3test",
+    "name": "nexj-fdc3test",
     "title": "NexJ FDC3 Test",
     "description": "FDC3 Test Portlet",
     "type": "web",

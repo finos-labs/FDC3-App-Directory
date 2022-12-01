@@ -1,8 +1,8 @@
 ---
 include: false
 data: {
-    "appId": "NexJ-ContactNavigator",
-    "name": "NexJ-ContactNavigator",
+    "appId": "nexj-contactnavigator",
+    "name": "nexj-contactnavigator",
     "title": "NexJ Contacts",
     "description": "Filter lists of contacts, companies, households and users and drill in or trigger actions on them",
     "categories": [

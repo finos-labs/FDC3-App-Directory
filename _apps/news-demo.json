@@ -1,7 +1,7 @@
 ---
 data: {
-  "appId": "newsdemo",
-  "name": "newsdemo",
+  "appId": "news-demo",
+  "name": "news-demo",
   "title": "News Feed Demo",
   "description": "Demo FDC3 news feed using services from NewsAPI.org",
   "categories": [

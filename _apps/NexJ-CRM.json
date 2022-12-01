@@ -1,7 +1,7 @@
 ---
 data: {
-    "appId": "NexJ-CRM",
-    "name": "NexJ-CRM",
+    "appId": "nexj-crm",
+    "name": "nexj-crm",
     "title": "NexJ CRM",
     "description": "Intelligent customer management solution",
     "type": "web",

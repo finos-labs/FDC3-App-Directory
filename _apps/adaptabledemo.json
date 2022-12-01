@@ -4,6 +4,7 @@ data: {
     "name": "adaptabledemo",
     "title": "Adaptable Blotter Demo",
     "description": "Adaptable Blotter Demo",
+    "publisher": "Adaptable",
     "categories": [
 		"demo",
 		"trading"
