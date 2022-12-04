@@ -4,6 +4,7 @@ data: {
   "appId": "MockAppId",
   "name": "MockApp",
   "description": "Testing spec conformance",
+  "type": "web",
   "details": {
     "url": "https://finos.github.io/FDC3-conformance-framework/v1.2/general/"
   },
