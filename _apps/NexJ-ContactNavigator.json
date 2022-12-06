@@ -10,7 +10,7 @@ data: {
 	  ],
     "type": "web",
     "details": {
-        "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/portlet/mda:EntityNavigator?$m=nexj/ui/bus/fdc3"
+        "url": "https://salesdemo2.stg.nexjcloud.com/nexj/anon/ui/portlet/mda:EntityNavigator?$m=nexj/ui/bus/fdc3"
     },
     "icons": [
         {
