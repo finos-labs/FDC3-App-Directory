@@ -9,7 +9,7 @@ data: {
 		"demo",
 	  ],
     "details": {
-        "url": "http://njtest2.theworkpc.com:443/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"
+        "url": "https://salesdemo2.stg.nexjcloud.com/nexj/anon/ui/fdc3?$m=nexj/ui/bus/fdc3"
     },
     "icons": [
         {
