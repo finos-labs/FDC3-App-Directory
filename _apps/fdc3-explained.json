@@ -3,7 +3,7 @@ data: {
   "appId": "fdc3-explained",
   "name": "fdc3-explained",
   "title": "FDC3 Explained",
-  "description": "Development and test tool for FDC3 desktop agents and apps",
+  "description": "FDC3 eXplained is a no-frills tool for learning more about FDC3 concepts without requiring any engineering or coding knowledge.",
   "categories": [
     "developer tools",
     "training"
@@ -17,10 +17,6 @@ data: {
     }
   ],
   "screenshots": [
-    {
-      "src": " https://fdc3.finos.org/toolbox/fdc3-explained/logo.svg",
-      "label": "FDC3 Explained logo"
-    }
   ],
   "contactEmail": "fdc3@finos.org,",
   "supportEmail": "fdc3-maintainers@finos.org,",
