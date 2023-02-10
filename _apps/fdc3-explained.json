@@ -1,0 +1,33 @@
+---
+data: {
+  "appId": "fdc3-explained",
+  "name": "fdc3-explained",
+  "title": "FDC3 Explained",
+  "description": "Development and test tool for FDC3 desktop agents and apps",
+  "categories": [
+    "developer tools",
+    "training"
+  ],
+  "version": "1.0.0",
+  "tooltip": "FDC3 Explained",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": " https://fdc3.finos.org/toolbox/fdc3-explained/logo.svg"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": " https://fdc3.finos.org/toolbox/fdc3-explained/logo.svg",
+      "label": "FDC3 Explained logo"
+    }
+  ],
+  "contactEmail": "fdc3@finos.org,",
+  "supportEmail": "fdc3-maintainers@finos.org,",
+  "publisher": "FDC3",
+  "type": "web",
+  "details": {
+    "url": "https://fdc3.finos.org/toolbox/fdc3-explained/"
+  }
+}
+---
