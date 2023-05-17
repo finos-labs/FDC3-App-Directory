@@ -1,4 +1,5 @@
 ---
+set: conformance_1_2
 data: {
   "appId": "conformance1",
   "name": "conformance1",

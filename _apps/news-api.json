@@ -1,4 +1,5 @@
 ---
+set: main
 data: {
     "appId": "news-api",
     "name": "news-api",
