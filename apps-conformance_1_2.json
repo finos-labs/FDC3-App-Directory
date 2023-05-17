@@ -1,0 +1,12 @@
+---
+permalink: conformance_1_2/v2/apps/
+---
+{
+  "applications" : [
+    {% assign apps = site.apps | where "set","conformance_1_2" %}
+    {% for app in apps %}
+    {{ app.data | jsonify }} {% if forloop.last == false %},{% endif %}
+    {% endfor %}  
+  ],
+  "message" : "OK"
+}

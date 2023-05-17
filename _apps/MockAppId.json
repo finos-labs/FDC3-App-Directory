@@ -1,5 +1,6 @@
 ---
 include: false
+set: conformance_1_2
 data: {
   "appId": "MockAppId",
   "name": "MockApp",

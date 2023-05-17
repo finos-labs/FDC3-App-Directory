@@ -1,4 +1,5 @@
 ---
+set: main
 data: {
     "appId": "nexj-fdc3test",
     "name": "nexj-fdc3test",

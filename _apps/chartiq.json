@@ -1,4 +1,5 @@
 ---
+set: main
 data: {
     "appId": "chartiq",
     "name": "chartiq",

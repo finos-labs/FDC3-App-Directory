@@ -1,4 +1,5 @@
 ---
+set: main
 data: {
     "appId": "trading-view-chart",
     "name": "trading-view-chart",
