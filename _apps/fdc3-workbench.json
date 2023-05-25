@@ -31,6 +31,9 @@ data: {
     "url": "https://fdc3.finos.org/toolbox/fdc3-workbench/"
   },
   "hostManifests": {
+   "sail" : {
+      "injectApi": "1.2"
+    },
     "Glue42": {
       "type": "window",
       "icon": "https://fdc3.finos.org/docs/assets/fdc3-logo.png",
