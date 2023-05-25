@@ -19,7 +19,7 @@ data: {
   ],
   "screenshots": [
     {
-      "src": "https://fdc3.finos.org/docs/assets/fdc3-logo.png",
+      "src": "https://fdc3.finos.org/assets/fdc3-logo.png",
       "label": "FDC3 logo"
     }
   ],
