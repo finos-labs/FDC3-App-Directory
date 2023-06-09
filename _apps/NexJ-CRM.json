@@ -7,9 +7,9 @@ data: {
     "description": "Intelligent customer management solution",
     "type": "web",
     "categories": [
-		"communication",
-		"demo"
-	  ],
+    "communication",
+    "demo"
+    ],
     "details": {
         "url": "https://salesdemo2.stg.nexjcloud.com/nexj/anon/ui/portal/mda:Contact?$m=nexj/ui/bus/fdc3&$m=nexj/ui/mda/mvc/fdc3"
     },
