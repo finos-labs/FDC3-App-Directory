@@ -8,7 +8,7 @@ data: {
       "description": "Part of the FDC3 2.0 Conformance Tests - developed for FINOS by Scott Logic",
       "type": "web",
       "details": {
-        "url": "https://finos.github.io/FDC-conformance-framework/v2.0/intent-d"
+        "url": "https://finos.github.io/FDC3-conformance-framework/v2.0/intent-d"
       },
       "hostManifests": {
         "sail": {
