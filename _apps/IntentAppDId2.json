@@ -1,6 +1,6 @@
 ---
 include: false
-set: conformance_1_2
+set: conformance_2_0
 data: {
       "appId": "IntentAppDId",
       "name": "IntentAppD",
