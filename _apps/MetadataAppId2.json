@@ -7,7 +7,7 @@ data: {
       "title": "App Title",
       "description": "Part of the FDC3 2.0 Conformance Tests - developed for FINOS by Scott Logic",
       "details": {
-        "url": "https://finos.github.io/FDC-conformance-framework/v2.0/metadata"
+        "url": "https://finos.github.io/FDC3-conformance-framework/v2.0/metadata"
       },
       "hostManifests": {
         "sail": {
