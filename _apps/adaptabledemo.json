@@ -3,12 +3,22 @@ set: main
 data: {
     "appId": "adaptabledemo",
     "name": "adaptabledemo",
-    "title": "Adaptable Blotter Demo",
-    "description": "Adaptable Blotter Demo",
-    "publisher": "Adaptable",
+    "title": "AdapTable Demo",
+    "description": "AdapTable is a powerful, low-code extension to AG Grid that allows financial services users to manage, visualise and transform their data.  AdapTable includes advanced FDC3 capabilities.",
+    "publisher": "Adaptable Tools",
+    "contactEmail": "sales@adaptabletools.com",
+    "supportEmail": "support@adaptabletools.com",
+    "moreInfo": "https://www.adaptabletools.com/",
+    "type": "web",
+    "details": {
+        "url": "https://fdc3-demo.adaptabletools.com/"
+    },
     "categories": [
-    "demo",
-    "trading"
+		"data",
+		"trading",
+		"data grid",
+		"low code",
+        "demo"
     ],
     "icons": [
         {
@@ -17,18 +27,64 @@ data: {
     ],
     "screenshots": [
         {
-            "src": "https://media-exp1.licdn.com/dms/image/C4D1BAQER2bwFRz41Uw/company-background_10000/0/1579250387609?e=2159024400&v=beta&t=9DGn2oEqMGu0iXbavI2IqaBLtPihY76WqI3C5cqmJN0"
+            "src": "https://fdc3-demo.adaptabletools.com/adaptable_fdc3.gif",
+            "label": "AdapTable FDC3 Demo",
+            "type": "image/gif",
+            "size": "612x300"
         }
     ],
-    "type": "web",
-    "details": {
-        "url": "https://fdc3-demo.adaptabletools.com/"
-    },
-    "interop": {},
     "hostManifests": {
         "sail": {
             "injectApi": "1.2",
             "forceNewWindow": true
+        }
+    },
+    "interop": {
+        "intents":{
+            "listensFor": {
+                "ViewInstrument": {
+                    "displayName": "View Instrument",
+                    "contexts": [
+                        "fdc3.instrument"
+                    ]
+                },
+                "ViewContact": {
+                    "displayName": "View Contact",
+                    "contexts": [
+                        "fdc3.contact"
+                    ]
+                },
+                "ViewQuote": {
+                    "displayName": "View Quote",
+                    "contexts": [
+                        "fdc3.instrument"
+                    ]
+                }
+            },
+            "raises": {
+                "ViewInstrument": {
+                    "displayName": "View Instrument",
+                    "contexts": [
+                        "fdc3.instrument"
+                    ]
+                },
+                "StartChat": {
+                    "displayName": "Start Chat",
+                    "contexts": [
+                        "fdc3.contact"
+                    ]
+                }
+            }
+        },
+        "appChannels": {
+            "broadcasts": [
+                "fdc3.instrument"
+            ]
+        },
+        "userChannels": {
+            "broadcasts": [
+                "fdc3.instrument"
+            ]
         }
     }
 }
