@@ -7,8 +7,8 @@ data: {
     "title": "NexJ Contacts",
     "description": "Filter lists of contacts, companies, households and users and drill in or trigger actions on them",
     "categories": [
-		"demo",
-	  ],
+    "demo",
+    ],
     "type": "web",
     "details": {
         "url": "https://salesdemo2.stg.nexjcloud.com/nexj/anon/ui/portlet/mda:EntityNavigator?$m=nexj/ui/bus/fdc3"
