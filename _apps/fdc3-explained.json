@@ -33,7 +33,7 @@ data: {
   "hostManifests": {
     "sail": {
       "injectApi": "1.2",
-      "searchable": false,
+      "searchable": true,
       "forceNewWindow": false
     }
   }
