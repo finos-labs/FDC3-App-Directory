@@ -28,7 +28,14 @@ data: {
   "publisher": "FDC3",
   "type": "web",
   "details": {
-    "url": "https://fdc3.finos.org/toolbox/fdc3-explained/"
+    "url": "https://fdc3.finos.org/toolbox/fdc3-explained/1.2/"
+  },
+  "hostManifests": {
+    "sail": {
+      "injectApi": "1.2",
+      "searchable": false,
+      "forceNewWindow": false
+    }
   }
 }
 ---
