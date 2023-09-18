@@ -1,5 +1,5 @@
 ---
-set: main
+set: none
 data: {
     "appId": "chartiq",
     "name": "chartiq",
