@@ -35,7 +35,7 @@ data: {
   ],
   "hostManifests": {
     "sail": {
-      "injectApi": "1.2",
+      "injectApi": "2.0",
       "forceNewWindow": true
     }
   },
@@ -62,30 +62,20 @@ data: {
         }
       },
       "raises": {
-        "ViewInstrument": {
-          "displayName": "View Instrument",
-          "contexts": [
-            "fdc3.instrument"
-          ]
-        },
-        "StartChat": {
-          "displayName": "Start Chat",
-          "contexts": [
-            "fdc3.contact"
-          ]
-        }
+        "ViewInstrument": [
+          "fdc3.instrument"
+        ],
+        "StartChat": [
+          "fdc3.contact"
+        ]
       }
-    },
-    "appChannels": {
-      "broadcasts": [
-        "fdc3.instrument"
-      ]
     },
     "userChannels": {
       "broadcasts": [
         "fdc3.instrument"
       ]
-    }
+    },
+    "appChannels": []
   }
 }
 ---
