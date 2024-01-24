@@ -67,7 +67,7 @@ data: {
   "publisher": "Scott Logic",
   "icons": [
     {
-      "src": "https://www.scottlogic.com/sites/default/files/scott-logic-favicon.jpg"
+      "src": "https://directory.fdc3.finos.org/assets/images/finos-black.png"
     }
   ],
   "interop": {

@@ -42,7 +42,7 @@ data: {
   "type": "web",
   "icons": [
     {
-      "src": "http://localhost:3001/finos-icon-256.png"
+      "src": "https://directory.fdc3.finos.org/assets/images/finos-black.png"
     }
   ]}
 ---
