@@ -42,24 +42,9 @@ data: {
         }
       },
       "raises": {
-        "CreateInteraction": {
-          "contexts": [
-            "fdc3.interaction"
-          ],
-          "displayName": "Create Interaction"
-        },
-        "ViewContact": {
-          "contexts": [
-            "fdc3.contact"
-          ],
-          "displayName": "View Contact"
-        },
-        "ViewInstrument": {
-          "contexts": [
-            "fdc3.instrument"
-          ],
-          "displayName": "View Instrument"
-        }
+        "CreateInteraction": [   "fdc3.interaction" ],
+        "ViewContact": [ "fdc3.contact" ],
+        "ViewInstrument": [ "fdc3.instrument" ],
       }
     }
   },
