@@ -11,7 +11,7 @@ data: {
   "contactEmail": "sales@symphony.com",
   "description": "Symphony is the most secure and compliance-enabling markets\u2019 infrastructure and technology platform, where solutions are built or integrated to standardize, automate and innovate financial services workflows. It is a vibrant community of over half a million financial professionals with a trusted directory and serves over 1,000 institutions.",
   "details": {
-    "url": "https://apps.connectifi-interop.com/sail/symphonyChat/index.html"
+    "url": "https://preview.symphony.com"
   },
   "icons": [
     {
