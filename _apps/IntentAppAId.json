@@ -70,15 +70,15 @@ data: {
   "interop": {
     "intents": {
       "listensFor": {
-        "aTestingIntent" : {
+        "aTestingIntent": {
           "displayName": "A Testing Intent",
           "contexts": [
             "testContextX",
             "testContextZ"
           ]
         },
-        "sharedTestingIntent1" : {
-          "displayName": "Shared Testing Intent",
+        "sharedTestingIntent1": {
+          "displayName": "Shared Testing Intent 1",
           "contexts": [
             "testContextX"
           ]

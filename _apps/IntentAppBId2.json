@@ -53,7 +53,7 @@ data: {
           ]
         },
         "sharedTestingIntent1": {
-          "displayName": "Shared Testing Intent",
+          "displayName": "Shared Testing Intent 1",
           "contexts": [
             "testContextX",
             "testContextY"
@@ -62,5 +62,6 @@ data: {
         }
       }
     }
-  }}
+  }
+}
 ---
