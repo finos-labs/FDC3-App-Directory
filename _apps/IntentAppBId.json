@@ -73,15 +73,20 @@ data: {
   "interop": {
     "intents": {
       "listensFor": {
-        "bTestingIntent" : {
-                "displayName": "B Testing Intent",
-                "contexts": ["testContextY"]
-            },
-            "sharedTestingIntent1" : {
-                "displayName": "Shared Testing Intent",
-                "contexts": ["testContextX", "testContextY"]
-            }
+        "bTestingIntent": {
+          "displayName": "B Testing Intent",
+          "contexts": [
+            "testContextY"
+          ]
+        },
+        "sharedTestingIntent1": {
+          "displayName": "Shared Testing Intent 1",
+          "contexts": [
+            "testContextX",
+            "testContextY"
+          ]
         }
+      }
     }
   }
 }

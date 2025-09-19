@@ -47,7 +47,7 @@ data: {
     "intents": {
       "listensFor": {
         "sharedTestingIntent2": {
-          "displayName": "Shared Testing Intent",
+          "displayName": "Shared Testing Intent 2",
           "contexts": [
             "testContextX"
           ],
@@ -55,5 +55,6 @@ data: {
         }
       }
     }
-  }}
+  }
+}
 ---
